@@ -68,7 +68,7 @@ Source: https://github.com/arangodb/example-datasets/tree/master/Data%20Loader
 Size: 3375 nodes, 286463 edges
 
 ```python
-print(datasets.dataset_info("FLIGHTS")
+print(datasets.dataset_info("FLIGHTS"))
 
 datasets.load("FLIGHTS")
 ```
